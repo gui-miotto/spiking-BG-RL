@@ -1,6 +1,6 @@
 # spiking-BG-RL
 
-Here is an example of how to use NEST to create a spiking neural network that can learn associations between cues and actions. It uses a plasticity rule modulated by dopamine, i.e. three-factor STDP. If you are interested in knowing more about this model and the neuroscience supporting it, you can check out the report available at the root directory.
+Here is an example of how to use [NEST](https://www.nest-simulator.org/) to create a spiking neural network that can learn associations between cues and actions. It uses a plasticity rule modulated by dopamine, i.e. three-factor STDP. If you are interested in knowing more about this model and the neuroscience supporting it, you can check out the [report](https://github.com/gui-miotto/spiking-BG-RL/blob/master/Report.pdf) available at the root directory.
 
 # The network:
 
@@ -35,7 +35,9 @@ if __name__ == '__main__':
 
 # Prerequisites:
 
-* [NEST](https://www.nest-simulator.org/) I recommend [installing using conda](https://nest-simulator.readthedocs.io/en/latest/installation/conda_install.html). It is necessary to install NEST with support to MPI, so don't forget the flag `nest-simulator=*=mpi_openmpi*`
-
-
+* [NEST](https://www.nest-simulator.org/): I recommend [installing using conda](https://nest-simulator.readthedocs.io/en/latest/installation/conda_install.html). It is activate support to MPI, so don't forget the flag `nest-simulator=*=mpi_openmpi*`
+* [mpi4py](https://pypi.org/project/mpi4py/)
+* [numpy](https://numpy.org/)
+* [pandas](https://pandas.pydata.org/)
+* [matplotlib](https://matplotlib.org/)
 
