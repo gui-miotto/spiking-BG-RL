@@ -8,7 +8,7 @@ The decision-making setup modeled here was based on a common experiment conducte
 
 The neural network is based on the interaction between cortex and striatum; the main input nucleus of the basal ganglia. It is made of 1451 neurons: 1000 excitatory, 450 inhibitory and 1 dopaminergic. Cues are sensed by the cortical network and actions are originated at the striatal network.
 
-![alt text](https://github.com/gui-miotto/spiking-BG-RL/prot_net.png "protocol and network")
+![alt text](https://github.com/gui-miotto/spiking-BG-RL/blob/master/prot_net.png "protocol and network")
 
 # Example
 
