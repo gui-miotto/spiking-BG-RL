@@ -37,7 +37,7 @@ Functions to plot results and the progress of training are available in the file
 
 # Prerequisites:
 
-* [NEST](https://www.nest-simulator.org/): I recommend [installing using conda](https://nest-simulator.readthedocs.io/en/latest/installation/conda_install.html). It is activate support to MPI, so don't forget the flag `nest-simulator=*=mpi_openmpi*`
+* [NEST](https://www.nest-simulator.org/): I recommend [installing using conda](https://nest-simulator.readthedocs.io/en/latest/installation/conda_install.html). It is required to activate support to MPI, so don't forget the flag `nest-simulator=*=mpi_openmpi*`
 * [mpi4py](https://pypi.org/project/mpi4py/)
 * [numpy](https://numpy.org/)
 * [pandas](https://pandas.pydata.org/)
