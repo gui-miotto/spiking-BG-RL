@@ -1,8 +1,8 @@
-# spiking-BG-RL
+# Spiking-BG-RL
 
-Here is an example of how to use [NEST](https://www.nest-simulator.org/) to create a spiking neural network that can learn associations between cues and actions. It uses a plasticity rule modulated by dopamine, i.e. three-factor STDP. If you are interested in knowing more about this model and the neuroscience supporting it, you can check out the [report](https://github.com/gui-miotto/spiking-BG-RL/blob/master/Report.pdf) available at the root directory.
+An example of how to use [NEST](https://www.nest-simulator.org/) to create a spiking neural network that can learn associations between cues and actions. It uses a plasticity rule modulated by dopamine, i.e. three-factor STDP. If you are interested in knowing more about this model and the neuroscience supporting it, you can check out the [report](https://github.com/gui-miotto/spiking-BG-RL/blob/master/Report.pdf) available at the root directory.
 
-# The network:
+# The model:
 
 The decision-making setup modeled here was based on a common experiment conducted with animals where they are presented with one of two possible cues and have to decide between two different actions. At each trial, just one action is rewarded, and the rewarded action can be predicted based on the cue. After some training, the animals learn to consider the cue to make the decisions.
 
