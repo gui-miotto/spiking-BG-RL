@@ -32,6 +32,8 @@ if __name__ == '__main__':
     
     print('Successful trials:' result)
 ```
+Functions to plot results and the progress of training are available in the files make_plots_0.py and make_plots_1.py
+
 
 # Prerequisites:
 
