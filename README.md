@@ -8,8 +8,7 @@ The decision-making setup modeled here was based on a common experiment conducte
 
 The neural network is based on the interaction between cortex and striatum; the main input nucleus of the basal ganglia. It is made of 1451 neurons: 1000 excitatory, 450 inhibitory and 1 dopaminergic. Cues are sensed by the cortical network and actions are originated at the striatal network.
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "protocol and network")
+![alt text](https://github.com/gui-miotto/spiking-BG-RL/prot_net.png "protocol and network")
 
 # Example
 
@@ -36,7 +35,7 @@ if __name__ == '__main__':
 
 # Prerequisites:
 
-* NEST
+* [NEST](https://www.nest-simulator.org/) I recommend [installing using conda](https://nest-simulator.readthedocs.io/en/latest/installation/conda_install.html). It is necessary to install NEST with support to MPI, so don't forget the flag `nest-simulator=*=mpi_openmpi*`
 
 
 
